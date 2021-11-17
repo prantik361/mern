@@ -1,3 +1,4 @@
 {
-    "mongo": "mongodb+srv://prantik:12345@dev.rvoez.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongo": "mongodb+srv://prantik:12345@dev.rvoez.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwttoken":"jwtsecret"
 }

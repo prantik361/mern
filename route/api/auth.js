@@ -1,12 +1,9 @@
 const express=require('express');
-const router=express.Router();
+const route=express.Router();
+
+route.get('/',(req,res)=>{res.send('auth connected..')})
 
 
-router.get('/',(req,res)=>
-    res.send('user connected')
-);
+module.exports=route;
 
 
-
-
-module.exports=router;
